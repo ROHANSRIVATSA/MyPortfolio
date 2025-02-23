@@ -1,0 +1,43 @@
+/* Experience Section */
+#experience {
+    background-color: #2a2a2a;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    color: #ffffff; /* Add this to ensure text is visible */
+  }
+  
+  .experience-item {
+    background-color: #3a3a3a;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #experience h2 {
+    color: #ffffff; /* Ensure the heading is visible */
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  #experience h3 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  #experience h4 {
+    font-size: 1.1rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  #experience ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #ffffff;
+  }
+  
+  #experience li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }

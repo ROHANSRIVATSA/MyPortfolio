@@ -1,0 +1,58 @@
+/* Enable scroll snapping for the entire page */
+html {
+    scroll-snap-type: y mandatory; /* Vertical scroll snapping */
+    scroll-behavior: smooth; /* Smooth scrolling */
+  }
+  
+  /* Ensure each section takes up the full viewport height and snaps into place */
+  section {
+    scroll-snap-align: start; /* Snap to the start of each section */
+    height: 100vh; /* Each section takes up the full viewport height */
+    padding-top: var(--navbar-height); /* Add padding to account for Navbar height */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+  }
+  
+  /* Hero section specific padding */
+  #hero {
+    padding-top: calc(var(--navbar-height) + 20px); /* Extra padding for the Hero section */
+  }
+  
+  /* About section specific padding */
+  #about {
+    padding-top: var(--navbar-height);
+  }
+  
+  /* Skills section specific padding */
+  #skills {
+    padding-top: var(--navbar-height);
+  }
+  
+  /* Experience section specific padding */
+  #experience {
+    padding-top: var(--navbar-height);
+  }
+  
+  /* Projects section specific padding */
+  #projects {
+    padding-top: var(--navbar-height);
+  }
+  
+  /* Education section specific padding */
+  #education {
+    padding-top: var(--navbar-height);
+  }
+  
+  /* Contact section specific padding */
+  #contact {
+    padding-top: var(--navbar-height);
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: var(--background-dark);
+    color: var(--text-light);
+    text-align: center;
+    padding: 20px 0;
+  }
